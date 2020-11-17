@@ -35,7 +35,7 @@ public:
     QTreeWidget *treeWidget;
     QVBoxLayout *verticalLayout;
     QPushButton *pushButton;
-    QOpenGLWidget *openGLWidget;
+    my_opengl *openGLWidget;
     QMenuBar *menubar;
     QMenu *menuasd;
     QStatusBar *statusbar;

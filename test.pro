@@ -11,12 +11,14 @@ LIBS += -lopengl32
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    my_opengl.cpp
+    my_opengl.cpp \
+    my_sph.cpp
 
 
 HEADERS += \
     mainwindow.h \
     my_opengl.h \
+    my_sph.h \
     ui_mainwindow.h
 
 
