@@ -18,6 +18,10 @@ protected:
     QOpenGLShaderProgram *m_program = nullptr;
     QOpenGLFunctions *f;
 
+    GLfloat *Coord_Vertices;
+    GLfloat *Texture_Vertices;
+    GLfloat *Normal_Vertices;
+
     void initializeGL() override;
     void resizeGL(int w, int h) override;
     void paintGL() override;
